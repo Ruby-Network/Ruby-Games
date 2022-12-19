@@ -1,0 +1,13 @@
+version: "2"
+services:
+  terbium:
+    restart: unless-stopped
+    image: "ghcr.io/natant-network/natant-gaming:main"
+    ports:
+    #IMPORTANT: DO NOT CHANGE 3000 ONLY CHANGE THE NUMBER BEFORE THE COLON
+      - your port here:3000
+# network config if youi want a network config feel free to use the one below and change the name to your liking. YOU MUST RUN docker network create <your name> BEFORE RUNNING THE CONTAINER
+#networks:
+#  default:
+#    external:
+#      name: default

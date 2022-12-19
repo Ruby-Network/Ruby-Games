@@ -1,0 +1,260 @@
+[
+    {
+      "image": "/assets/games-thumb/tanuki.jpg",
+      "link": "/games/game?unlock",
+      "title": "Tanuki Sunset",
+      "proxy": "NO"
+    },
+    {
+      "image": "/assets/games-thumb/tunnel-rush.jpg",
+      "link": "/games/game?unlock",
+      "title": "Tunnel Rush",
+      "proxy": "NO"
+    },
+    {
+      "image": "/assets/games-thumb/stuntcars2.png",
+      "link": "/games/game?unlock",
+      "title": "Madalin Stunt Cars 2",
+      "proxy": "NO"
+    },
+      {
+        "image": "/assets/games-thumb/moke.png",
+        "link": "/games/game?unlock",
+        "title": "Spank The Monkey",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/slope.jpg",
+        "link": "/games/game?unlock",
+        "title": "Slope",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/run3.png",
+        "link": "/games/game?unlock",
+        "title": "Run 3",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/pacman.jpg",
+        "link": "/games/game?unlock",
+        "title": "Pacman",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/hexgl.jpg",
+        "link": "/games/game?unlock",
+        "title": "HexGL",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/snake.png",
+        "link": "/games/game?unlock",
+        "title": "Google Snake",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/gpacman.jpg",
+        "link": "/games/game?unlock",
+        "title": "Google Pacman",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/mario.webp",
+        "link": "/games/game?unlock",
+        "title": "Super Mario Bros.",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/ducklife.webp",
+        "link": "/games/game?unlock",
+        "title": "DuckLife",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/ducklife2.jpg",
+        "link": "/games/game?unlock",
+        "title": "DuckLife 2",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/ducklife3.jpg",
+        "link": "/games/game?unlock",
+        "title": "DuckLife 3",
+        "proxy": "NO"
+      },
+      { 
+        "image": "/assets/games-thumb/chromedino.png",
+        "link": "/games/game?unlock",
+        "title": "Google Dino Game",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/cookieclicker.jpg",
+        "link": "/games/game?unlock",
+        "title": "Cookie Clicker",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/retrobowl.jpg",
+        "link": "/games/game?unlock",
+        "title": "Retro Bowl",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/riddleschool.webp",
+        "link": "/games/game?unlock",
+        "title": "Riddle School",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/riddleschool2.webp",
+        "link": "/games/game?unlock",
+        "title": "Riddle School 2",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/riddleschool3.jpg",
+        "link": "/games/game?unlock",
+        "title": "Riddle School 3",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/riddleschool4.jpg",
+        "link": "/games/game?unlock",
+        "title": "Riddle School 4",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/riddleschool5.webp",
+        "link": "/games/game?unlock",
+        "title": "Riddle School 5",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/superhot.webp",
+        "link": "/games/game?unlock",
+        "title": "SuperHot",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/tanktrouble.webp",
+        "link": "/games/game?unlock",
+        "title": "Tank Trouble 2",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/templerun2.jpg",
+        "link": "/games/game?unlock",
+        "title": "Temple Run 2",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/flashtetris.png",
+        "link": "/games/game?unlock",
+        "title": "Flash Tetris",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/emulatorjs.png",
+        "link": "/games/game?unlock",
+        "title": "EmulatorJS",
+        "proxy": "NO"
+      },
+      {
+	      "image": "/assets/games-thumb/webretro.png",
+	      "link": "/games/game?unlock",
+	      "title": "WebRetro",
+        "proxy": "NO"
+	    },
+      {
+        "image": "/assets/games-thumb/bloons.webp",
+        "link": "/games/game?unlock",
+        "title": "Bloons",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/bloonstd.jpg",
+        "link": "/games/game?unlock",
+        "title": "Bloons TD",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/bloonstd2.png",
+        "link": "/games/game?unlock",
+        "title": "Bloons TD 2",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/2048.png",
+        "link": "/games/game?unlock",
+        "title": "2048",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/bloxors.png",
+        "link": "/games/game?unlock",
+        "title": "Bloxors",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/geometrydash.png",
+        "link": "/games/game?unlock",
+        "title": "Geometry Dash",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/sticmanhook.jpg",
+        "link": "/games/game?unlock",
+        "title": "Stickman Hook",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/vex3.png",
+        "link": "/games/game?unlock",
+        "title": "Vex 3",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/vex4.png",
+        "link": "/games/game?unlock",
+        "title": "Vex 4",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/vex5.jpeg",
+        "link": "/games/game?unlock",
+        "title": "Vex 5",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/vex6.jpeg",
+        "link": "/games/game?unlock",
+        "title": "Vex 6",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/vex7.png",
+        "link": "/games/game?unlock",
+        "title": "Vex 7",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/stuntcars3.jpg",
+        "link": "/games/game?unlock",
+        "title": "Madalin Stunt Cars 3",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/hardestgame.jpg",
+        "link": "/games/game?unlock",
+        "title": "Worlds Hardest Game",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/portaltheflashversion.jpg",
+        "link": "/games/game?unlock",
+        "title": "Portal Flash",
+        "proxy": "NO"
+      }
+  ]

@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @media (min-width: 600px) {
+    .grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  } */
+body {
+    background-color: black;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.games-container {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 130px;
+  margin-bottom: 20px;
+}
+.component-wrapper {
+  /* Calculate the height of the header and footer */
+  height: calc(100vh - 63px);
+  /* Set the overflow to auto to enable scrolling */
+  overflow-x: hidden;
+  overflow-y: auto;
+  /* Hide the scrollbar */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  border: none;
+}
+.component-wrapper::-webkit-scrollbar {
+  display: none;
+}
+.games-iframe {
+  width: 100vw;
+  height: 85vh;
+  border: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  right: 0;
+  top: 15%;
+  left: 0;
+  bottom: 0;
+}
+
+.games-iframe::-webkit-scrollbar {
+  display: none;
+}
+#tsparticles {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -10;
+  top: 0;
+  left: 0
+  }
+
