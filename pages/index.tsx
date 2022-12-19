@@ -25,7 +25,6 @@ const Home: NextPage = () => {
   return (
     <>
     <Particle />
-    // remove overflow
     <div className="overflow-hidden">
     <div className="flex h-screen items-center overflow-hidden">
       <div className="group relative mx-auto w-100 overflow-hidden rounded-[16px] bg-gray-700 p-[1px] transition-all duration-300 ease-in-out hover:bg-gradient-to-r hover:from-indigo-500 hover:via-purple-500 hover:to-pink-500">
