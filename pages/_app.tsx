@@ -26,7 +26,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <meta property="og:site_name" content="Natant Games" />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="en_US" />
-      <link id="faviconico" rel="icon" href="/favicon.ico" />
+      <link id="faviconico" rel="icon" href="/favicon.png" />
       <Header />
       <Cookies />
       <Footer />
