@@ -2,7 +2,7 @@ version: "2"
 services:
   terbium:
     restart: unless-stopped
-    image: "ghcr.io/natant-network/natant-gaming:main"
+    image: "ghcr.io/natant-network/natant-games:main"
     ports:
     #IMPORTANT: DO NOT CHANGE 3000 ONLY CHANGE THE NUMBER BEFORE THE COLON
       - your port here:3000
