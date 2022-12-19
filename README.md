@@ -27,7 +27,7 @@
 ### Self Hosting (Docker)
 - You can use the example docker-compose.yml file to self host the website using docker
 ```yml
-    version: "2"
+version: "2"
 services:
   terbium:
     restart: unless-stopped
