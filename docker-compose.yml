@@ -1,6 +1,6 @@
 version: "2"
 services:
-  terbium:
+  natant-games:
     restart: unless-stopped
     image: "ghcr.io/natant-network/natant-games:main"
     ports:
