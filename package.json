@@ -1,5 +1,18 @@
 {
-  "private": true,
+  "name": "natant-games",
+  "version": "1.0.0",
+  "description": "Natant Games",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natant-games/natant-games.git"
+  },
+  "author": "Natant Network",
+  "license": "GPL-3.0",
+  "engines": {
+    "node": ">=19.0.1",
+    "yarn": ">=1.22.19"
+  },
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
