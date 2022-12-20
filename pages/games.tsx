@@ -1,7 +1,7 @@
 import React from 'react';
 import { NextPage } from 'next';
 import dynamic from 'next/dynamic';
-import Tiles from './components/titles';
+import Tiles from './components/games';
 const tiles = require('./json/tiles.json');
 import { useRouter } from 'next/router';
 import { useState } from 'react';
@@ -13,7 +13,7 @@ const Games: NextPage = () => {
   React.useEffect(() => {
     if (router.isReady) {
       if (router.query.unlock === 'true' || router.query.unlock === 'yes' || router.query.unlock === '') {
-        console.log('unlock')
+        console.log('unlock');
         setIsUnlockedForGames(true)
     } else if (localStorage.getItem('unlocked') === 'true') {
       setIsUnlockedForGames(true)
