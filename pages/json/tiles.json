@@ -256,5 +256,41 @@
         "link": "/games/game?unlock",
         "title": "Portal Flash",
         "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/crossy-road.png",
+        "link": "/games/game?unlock",
+        "title": "Crossy Road",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/subway-surfers.png",
+        "link": "/games/game?unlock",
+        "title": "Subway Surfers",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/dadish.png",
+        "link": "/games/game?unlock",
+        "title": "Dadish",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/dadish-2.png",
+        "link": "/games/game?unlock",
+        "title": "Dadish 2",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/doodle-jump.png",
+        "link": "/games/game?unlock",
+        "title": "Doodle Jump",
+        "proxy": "NO"
+      },
+      {
+        "image": "/assets/games-thumb/fruit-ninja.png",
+        "link": "/games/game?unlock",
+        "title": "Fruit Ninja",
+        "proxy": "NO"
       }
   ]
