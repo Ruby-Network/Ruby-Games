@@ -1,6 +1,8 @@
 name: Build and Publish Docker Image!
 
-on: push
+on:
+  push:
+  workflow_dispatch:
 
 env:
   REGISTRY: ghcr.io
