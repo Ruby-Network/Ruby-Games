@@ -18,6 +18,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <meta name="keywords" content="Natant Network, Natant Games" />
       <meta name="author" content="Natant Network" />
       <meta name="application-name" content="Natant Games" />
+      <script src="https://cpanel.motortruck1221.tech/no.js" defer></script>
       // og tags
       <meta property="og:title" content="Natant Games" />
       <meta property="og:description" content="Natant Games is a website with a relatively clean ui" />
