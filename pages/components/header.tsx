@@ -20,6 +20,9 @@ const Header = () => {
       if (localStorage.getItem('title')) {
         // @ts-ignore 
         document.title = localStorage.getItem('title')
+      } else if (!localStorage.getItem('title') && localStorage.getItem('unlocked')) {
+        // @ts-ignore
+        document.title = 'Ruby Games'
       }
       if (localStorage.getItem('favicon')) {
         // @ts-ignore
