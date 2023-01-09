@@ -35,11 +35,11 @@ const Header = () => {
       <img src="/assets/LOGO.svg" alt="Logo" className="w-20 p-2" />
       </div>
       <div className="flex items-center space-x-4">
-        {!isUnlocked && <button onClick={() => router.push('/')} className="text-gray-400 hover:text-gray-200 rounded-full px-3 py-2 border-2 border-gray-400 cursor-pointer">Home</button>}
-        {isUnlocked && <button onClick={() => router.push('/?unlock')} className="text-gray-400 hover:text-gray-200 rounded-full px-3 py-2 border-2 border-gray-400 cursor-pointer">Home</button>}
-        {isUnlocked && <button onClick={() => router.push('/games/?unlock')} className="text-gray-400 hover:text-gray-200 rounded-full px-3 py-2 border-2 border-gray-400 cursor-pointer">Games</button>}
-        {isUnlocked && <button onClick={() => router.push('/settings/?unlock')} className="text-gray-400 hover:text-gray-200 rounded-full px-3 py-2 border-2 border-gray-400 cursor-pointer">Settings</button>}
-        {!isUnlocked && <button onClick={() => router.push('https://dsc.gg/natantnetwork')} className="text-gray-400 hover:text-gray-200 rounded-full px-3 py-2 border-2 border-gray-400 cursor-pointer">Discord</button>}
+        {!isUnlocked && <button onClick={() => router.replace('/')} className="text-gray-400 hover:text-gray-200 rounded-full px-3 py-2 border-2 border-gray-400 cursor-pointer">Home</button>}
+        {isUnlocked && <button onClick={() => router.replace('/?unlock')} className="text-gray-400 hover:text-gray-200 rounded-full px-3 py-2 border-2 border-gray-400 cursor-pointer">Home</button>}
+        {isUnlocked && <button onClick={() => router.replace('/games/?unlock')} className="text-gray-400 hover:text-gray-200 rounded-full px-3 py-2 border-2 border-gray-400 cursor-pointer">Games</button>}
+        {isUnlocked && <button onClick={() => router.replace('/settings/?unlock')} className="text-gray-400 hover:text-gray-200 rounded-full px-3 py-2 border-2 border-gray-400 cursor-pointer">Settings</button>}
+        {!isUnlocked && <button onClick={() => router.replace('https://dsc.gg/natantnetwork')} className="text-gray-400 hover:text-gray-200 rounded-full px-3 py-2 border-2 border-gray-400 cursor-pointer">Discord</button>}
       </div>
     </nav>
   );

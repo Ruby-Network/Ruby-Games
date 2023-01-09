@@ -20,7 +20,7 @@ const Games: NextPage = () => {
     }
     else {
       // immediately redirect to home page
-      router.push('/')
+      router.replace('/')
     }
     }
   }, [router.isReady])

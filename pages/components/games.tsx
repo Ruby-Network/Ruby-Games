@@ -60,17 +60,17 @@ const Tiles= (props: { tiles: any[]; }) => {
           <div className="grid grid-cols-4 gap-4">
           {props.tiles.map((tile, index) => (
             <div key={index} className="bg-gray-800 rounded-lg shadow-md shadow-gray-400 p-4">
-              {/* <img onClick={() => {router.push(tile.link+'&game='+tile.title)}} alt="Image" src={tile.image} className="w-80 h-40 object-cover object-center" /> */}
+              {/* <img onClick={() => {router.replace(tile.link+'&game='+tile.title)}} alt="Image" src={tile.image} className="w-80 h-40 object-cover object-center" /> */}
               <motion.img
                 whileHover={{ scale: 1.06 }}
                 whileTap={{ scale: 0.9 }}
                 src={tile.image}
                 alt={tile.title}
                 className="w-80 h-40 object-cover object-center cursor-pointer"
-                onClick = {() => {router.push(tile.link+'&game='+tile.title)}}
+                onClick = {() => {router.replace(tile.link+'&game='+tile.title)}}
               />
               <p className="block mt-4 text-white text-center">{tile.title}</p>
-              <button onClick={() => {router.push(tile.link+'&game='+tile.title)}} className="w-20 text-gray-400 hover:text-gray-200 rounded-full px-3 py-2 border-2 border-gray-400 cursor-pointer block mt-4 text-center">Play</button>
+              <button onClick={() => {router.replace(tile.link+'&game='+tile.title)}} className="w-20 text-gray-400 hover:text-gray-200 rounded-full px-3 py-2 border-2 border-gray-400 cursor-pointer block mt-4 text-center">Play</button>
             </div>
           ))}
         </div>
@@ -108,12 +108,12 @@ const Tiles= (props: { tiles: any[]; }) => {
                     src={tile.image}
                     alt={tile.title}
                     className="w-80 h-40 object-cover object-center cursor-pointer"
-                    onClick = {() => {router.push(tile.link+'&game='+tile.title)}}
+                    onClick = {() => {router.replace(tile.link+'&game='+tile.title)}}
                   />
                 </div>
                 <div className="md:w-2/3">
                   <p className="block mt-4 text-white text-center md:text-left">{tile.title}</p>
-                  <button onClick={() => {router.push(tile.link+'&game='+tile.title)}} className="w-20 text-gray-400 hover:text-gray-200 rounded-full px-3 py-2 border-2 border-gray-400 cursor-pointer block mt-4 text-center">Play</button>
+                  <button onClick={() => {router.replace(tile.link+'&game='+tile.title)}} className="w-20 text-gray-400 hover:text-gray-200 rounded-full px-3 py-2 border-2 border-gray-400 cursor-pointer block mt-4 text-center">Play</button>
                 </div>
               </div>
             </div>

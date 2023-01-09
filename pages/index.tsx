@@ -18,7 +18,7 @@ const Home: NextPage = () => {
         setIsUnlockedForIndex(true)
       } else {
         console.log('not unlocked')
-        router.push('/')
+        router.replace('/')
     }
     }
   }, [router.isReady])
@@ -46,7 +46,7 @@ const Home: NextPage = () => {
               <p className="font-md text-slate-500">
                 Slope is a game where you have to avoid the obstacles and get the highest score possible.
               </p>
-              <button onClick={ () => router.push('/games/game?unlock&game=Slope')} className="bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-semibold px-4 py-2 rounded-md hover:from-purple-500 hover:to-indigo-500 transition-all duration-300 ease-in-out">Play</button>
+              <button onClick={ () => router.replace('/games/game?unlock&game=Slope')} className="bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-semibold px-4 py-2 rounded-md hover:from-purple-500 hover:to-indigo-500 transition-all duration-300 ease-in-out">Play</button>
           </div>}
           </div>
         </div>

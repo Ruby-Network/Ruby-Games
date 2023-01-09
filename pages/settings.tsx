@@ -16,7 +16,7 @@ const Settings: NextPage = () => {
                 setIsUnlocked(true);
             }
             else {
-              router.push('/')
+              router.replace('/')
             }
         }
     }, [router.isReady]);
