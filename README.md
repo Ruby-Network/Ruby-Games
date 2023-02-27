@@ -1,6 +1,8 @@
-# Natant Games
+# Ruby Games
 
-## Natant Games is games website with a relatively clean and simple design.
+## Ruby Games is games website with a relatively clean and simple design.
+
+## This is now Archived. We have merged this with [Ruby](https://github.com/ruby-network/ruby)
 
 ### The website is built using the following technologies:
 - Next.js
